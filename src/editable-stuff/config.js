@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/naqeeb.jpg"),
   imageSize: 375,
   message:
-    "Hey, I'm Naqeeb Ahmed. Currently in my 2nd year of my undergraduate degree in Electronic & Communication Engineering from Guru Gobind Singh Indraprastha University.I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Web Development, Robotics and Competitive Programming and my goal is to pursue this passion within the field of software engineering. In my free time I explore other new tech innovation like cloud computing ,Quantum computing and IoT etc",
+    "Hey, I'm Naqeeb Ahmed. Currently in my 2nd year of my undergraduate degree in Electronic & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi.I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Web Development, Robotics and Competitive Programming and my goal is to pursue this passion within the field of software engineering. In my free time I explore other new tech innovation like cloud computing ,Quantum computing and IoT etc",
   resume: "https://drive.google.com/file/d/1vqBrQ9xtTvpwkUOL5F9l2X-3bB4c8ggw/view?usp=sharing",
 };
 

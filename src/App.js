@@ -20,7 +20,7 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
+import {Timeline} from "./components/home/Timeline.jsx"
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -47,6 +47,8 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+       <h2 className="display-4 pb-10 text-center">Education</h2>
+      <Timeline/>
       {repos.show && (
         <Project
           heading={repos.heading}
