@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/naqeeb.jpg"),
   imageSize: 375,
   message:
-    "Hey, I'm Naqeeb Ahmed. Currently in my 2nd year of my undergraduate degree in Electronic & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi.I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Web Development, Robotics and Competitive Programming and my goal is to pursue this passion within the field of software engineering. In my free time I explore other new tech innovation like cloud computing ,Quantum computing and IoT etc",
-  resume: "https://drive.google.com/file/d/1vqBrQ9xtTvpwkUOL5F9l2X-3bB4c8ggw/view?usp=sharing",
+    "Hey, I'm Naqeeb Ahmed. Currently in my 2nd year of my undergraduate degree in Electronic & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi.I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Web Development, Robotics, Data Science and Machine Learning and my goal is to pursue this passion within the field of software engineering. In my free time I explore other new tech innovation like cloud computing ,Quantum computing and IoT etc",
+  resume: "https://drive.google.com/file/d/1ZUyGxhr3KELBgINQ5pcdM7tqGvwXUo4R/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "naqeeb2710", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["Hackathon-website","NaqeebBlog"],
+  specificRepos: ["Hackathon-website","NaqeebBlog","ADGITM-NOTICE-Discord-bot"],
 };
 
 // Leadership SECTION
@@ -100,8 +100,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    // { name: "Python", value: 90 },
-    // { name: "SQL", value: 75 },
+    { name: "Python", value: 90 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 85 },
     { name: "JavaScript", value: 90 },
@@ -112,6 +111,11 @@ const skills = {
     { name: "Linux", value: 80 },
     { name: "Gcloud", value: 70 },
     { name: "Bootstrap", value: 70 },
+    { name: "Pandas", value: 60 },
+    { name: "Matplotlib", value: 60 },
+    { name: "Seaborn", value: 70 },
+    { name: "TailwindCss", value: 50 },
+    { name: "NextJs", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -141,14 +145,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',
+      role: 'Data Analytics Intern',
       degree:'Electronic and Communication Engineering',
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      companylogo: require('../assets/img/congress.png'),
+      date: 'December 2021 – January 2022',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
+      role: 'Subject Matter Expert',
+      companylogo: require('../assets/img/Chegg.png'),
       date: 'May 2017 – May 2018',
     },
   ]
