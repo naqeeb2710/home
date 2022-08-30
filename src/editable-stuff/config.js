@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/naqeeb.jpg"),
   imageSize: 375,
   message:
-    "Hey, I'm Naqeeb Ahmed. Currently in my 2nd year of my undergraduate degree in Electronic & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi.I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Web Development, Robotics, Data Science and Machine Learning and my goal is to pursue this passion within the field of software engineering. In my free time I explore other new tech innovation like cloud computing ,Quantum computing and IoT etc",
-  resume: "https://drive.google.com/file/d/1ZUyGxhr3KELBgINQ5pcdM7tqGvwXUo4R/view?usp=sharing",
+    "Hey, I'm Naqeeb Ahmed. Currently in the pre final year of my undergraduate degree in Electronics & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi. I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Data Science, Machine Learning, Robotics and Competitive Programming. In my free time, I explore other new tech innovations like cloud computing, Quantum computing and IoT etc",
+  resume: "https://drive.google.com/file/d/1wYxd3PQYq-wRwhcEiV3Gc8IAAcK6hxCT/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "naqeeb2710", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["Hackathon-website","NaqeebBlog","ADGITM-NOTICE-Discord-bot"],
+  specificRepos: ["X-Ray-Pneumonia-Prediction-CNN","NaqeebBlog","ADGITM-NOTICE-Discord-bot","Twitter-Sentiment-Analysis","RedWine_Quality_Analysis","Hack-sih"],
 };
 
 // Leadership SECTION
@@ -107,15 +107,19 @@ const skills = {
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
     { name: "Arduino", value: 80 },
-    { name: "raspberry pi ", value: 50 },
+    { name: "Data Visulaization", value: 90 },
+    { name: "TensorFlow", value: 80 },
+    { name: "Neural Network", value: 80 },
+    { name: "CNN", value: 80 },
+    { name: "Natural Language Processing", value: 80 },
+    { name: "Sentiment Analysis", value: 90 },
+    { name: "Clustering and Classification Analysis", value: 90 },
+    { name: "Mathematics and Statistics.", value: 80 },
+    { name: "Machine Learning", value: 80 },
+    { name: "SQL", value: 80 },
+    { name: "Excel", value: 80 },
     { name: "Linux", value: 80 },
-    { name: "Gcloud", value: 70 },
-    { name: "Bootstrap", value: 70 },
-    { name: "Pandas", value: 60 },
-    { name: "Matplotlib", value: 60 },
-    { name: "Seaborn", value: 70 },
-    { name: "TailwindCss", value: 50 },
-    { name: "NextJs", value: 70 },
+    { name: "AWS", value: 40 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -136,8 +140,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Internship in Software Engineering or in Robotics! If you know of any positions available, or if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "naqeeb532@outlook.com",
+    "I'm currently looking for Internship in Software Engineering, Data Science or in Machine learning.! If you know of any positions available, or if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "naqeeb2710@gmail.com",
 };
 
 const experiences = {
@@ -145,16 +149,16 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Data Analytics Intern',
+      role: 'Data Analyst Intern',
       degree:'Electronic and Communication Engineering',
       companylogo: require('../assets/img/congress.png'),
-      date: 'December 2021 – January 2022',
+      date: 'April 2022- July 2022',
     },
-    {
-      role: 'Subject Matter Expert',
-      companylogo: require('../assets/img/Chegg.png'),
-      date: 'May 2017 – May 2018',
-    },
+    // {
+    //   role: 'Subject Matter Expert',
+    //   companylogo: require('../assets/img/Chegg.png'),
+    //   date: 'May 2017 – May 2018',
+    // },
   ]
 }
 
