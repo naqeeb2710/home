@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "Hey, I'm Naqeeb Ahmed. Currently in the pre final year of my undergraduate degree in Electronics & Communication Engineering from Guru Gobind Singh Indraprastha University, New Delhi. I would describe myself as someone who is deeply fascinated by Technology and Innovation. I'm most passionate about Data Science, Machine Learning, Robotics and Competitive Programming. In my free time, I explore other new tech innovations like cloud computing, Quantum computing and IoT etc",
-  resume: "https://drive.google.com/file/d/1wYxd3PQYq-wRwhcEiV3Gc8IAAcK6hxCT/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1679RmHE-gpI5JD6r8tEJU3Ji6xEQHQbp/view?usp=share_link",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "naqeeb2710", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["X-Ray-Pneumonia-Prediction-CNN","NaqeebBlog","ADGITM-NOTICE-Discord-bot","Twitter-Sentiment-Analysis","RedWine_Quality_Analysis","Hack-sih"],
+  specificRepos: ["X-Ray-Pneumonia-Prediction-CNN","Pong-Game-ML","NaqeebBlog","ADGITM-NOTICE-Discord-bot","Twitter-Sentiment-Analysis","Hack-sih","Delhi-housing-price"],
 };
 
 // Leadership SECTION
@@ -109,7 +109,7 @@ const skills = {
     { name: "Arduino", value: 80 },
     { name: "Data Visulaization", value: 90 },
     { name: "TensorFlow", value: 80 },
-    { name: "Neural Network", value: 80 },
+    { name: "Deep Leaaring", value: 80 },
     { name: "CNN", value: 80 },
     { name: "Natural Language Processing", value: 80 },
     { name: "Sentiment Analysis", value: 90 },
