@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.82458425.chunk.css",
-    "main.js": "/static/js/main.a226a672.chunk.js",
-    "main.js.map": "/static/js/main.a226a672.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
-    "static/js/2.d030ac96.chunk.js": "/static/js/2.d030ac96.chunk.js",
-    "static/js/2.d030ac96.chunk.js.map": "/static/js/2.d030ac96.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8e193e7f6236e080ab39d3cac6bd120c.js": "/precache-manifest.8e193e7f6236e080ab39d3cac6bd120c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
-    "static/css/main.82458425.chunk.css.map": "/static/css/main.82458425.chunk.css.map",
-    "static/js/2.d030ac96.chunk.js.LICENSE.txt": "/static/js/2.d030ac96.chunk.js.LICENSE.txt",
-    "static/media/congress.png": "/static/media/congress.080e2e15.png",
-    "static/media/naqeeb.jpg": "/static/media/naqeeb.7d8b7f06.jpg",
-    "static/media/resume.pdf": "/static/media/resume.ebd71f6b.pdf"
+    "main.css": "/home/static/css/main.39c39d30.chunk.css",
+    "main.js": "/home/static/js/main.aea82ff2.chunk.js",
+    "main.js.map": "/home/static/js/main.aea82ff2.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
+    "static/css/2.22ca87da.chunk.css": "/home/static/css/2.22ca87da.chunk.css",
+    "static/js/2.bd5a8448.chunk.js": "/home/static/js/2.bd5a8448.chunk.js",
+    "static/js/2.bd5a8448.chunk.js.map": "/home/static/js/2.bd5a8448.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.03c69177f62440f0db456dafa897b237.js": "/home/precache-manifest.03c69177f62440f0db456dafa897b237.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/2.22ca87da.chunk.css.map": "/home/static/css/2.22ca87da.chunk.css.map",
+    "static/css/main.39c39d30.chunk.css.map": "/home/static/css/main.39c39d30.chunk.css.map",
+    "static/js/2.bd5a8448.chunk.js.LICENSE.txt": "/home/static/js/2.bd5a8448.chunk.js.LICENSE.txt",
+    "static/media/congress.png": "/home/static/media/congress.080e2e15.png",
+    "static/media/naqeeb.jpg": "/home/static/media/naqeeb.7d8b7f06.jpg",
+    "static/media/resume.pdf": "/home/static/media/resume.ebd71f6b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.554504a0.js",
+    "static/js/runtime-main.3c590061.js",
     "static/css/2.22ca87da.chunk.css",
-    "static/js/2.d030ac96.chunk.js",
-    "static/css/main.82458425.chunk.css",
-    "static/js/main.a226a672.chunk.js"
+    "static/js/2.bd5a8448.chunk.js",
+    "static/css/main.39c39d30.chunk.css",
+    "static/js/main.aea82ff2.chunk.js"
   ]
 }
