@@ -49,13 +49,13 @@ const mainBody = {
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
-  show: true, 
+  show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/naqeeb.jpg"),
   imageSize: 375,
   message:
-    "Hi, I'm Naqeeb Ahmed, a Junior year Electronics & Communication Engineering student at Guru Gobind Singh Indraprastha University in New Delhi. I am deeply interested in Technology and Innovation, particularly in Data Science, Machine Learning, and Research projects. My goal is to work as a Data Scientist and I have prior experience as a Data Science Intern at Algo Analytica. In my free time, I continue to explore new techs such as cloud computing, Quantum computing, and IoT.",
-  resume: "https://drive.google.com/file/d/1679RmHE-gpI5JD6r8tEJU3Ji6xEQHQbp/view?usp=share_link",
+    "I am a recent Electronics and Communication Engineering graduate from Guru Gobind Singh Indraprastha University, deeply passionate about Data Science, Machine Learning, and innovative research. Currently, I work as a Data Scientist at Euler Motors, developing predictive models and anomaly detection systems for EV battery health. My background includes research internships at A*STAR Singapore and MCQST Munich, where I worked on material science and quantum computing optimization respectively. I possess strong technical skills in Python, Deep Learning, Computer Vision, and Web Development, with a goal to drive technology through data-driven solutions.",
+  resume: "https://drive.google.com/file/d/1PSwpl5mRfvasdFm7dK9iSJl_bJt7ScS3/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "naqeeb2710", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["X-Ray-Pneumonia-Prediction-CNN","Pong-Game-ML","NaqeebBlog","ADGITM-NOTICE-Discord-bot","Twitter-Sentiment-Analysis","Delhi-housing-price","Hack-sih"],
+  specificRepos: ["X-Ray-Pneumonia-Prediction-CNN", "Pong-Game-ML", "NaqeebBlog", "ADGITM-NOTICE-Discord-bot", "Twitter-Sentiment-Analysis", "Delhi-housing-price", "Hack-sih"],
 };
 
 // Leadership SECTION
@@ -78,20 +78,20 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/naqeeb.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/naqeeb.jpg"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/naqeeb.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/naqeeb.jpg"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
-    width:"450",
-    height:"450"
+    width: "450",
+    height: "450"
   }
 };
 
@@ -147,20 +147,61 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Data Analyst Intern',
-      degree:'Electronic and Communication Engineering',
-      companylogo: require('../assets/img/congress.png'),
-      date: 'April 2022- July 2022',
+      role: 'MTS – I ( Data Science )',
+      company: 'Euler Motors',
+      companylogo: require('../assets/img/euler.png'),
+      date: 'Aug 2024 - Present',
+      desc: [
+        "Engineered an end-to-end preemptive vehicle care platform to monitor and forecast battery health in real-time. Utilized a suite of machine learning models, including LSTMs for state-of-health prediction and Isolation Forests and Autoencoders for anomaly detection (e.g., cell imbalances, overheating), to automatically generate proactive service tickets, enabling a shift from reactive to predictive maintenance.",
+        "Designed and deployed a payload estimation model using gradient boosting on vehicle dynamics data (e.g., motor torque, acceleration) to accurately detect vehicle overloading events, helping enforce warranty compliance and prevent premature component wear.",
+        "Pioneered a RAG system leveraging Llama 2 to synthesize vast, unstructured service logs and data from the preemptive maintenance platform. This created a conversational interface for R&D and service teams to accelerate root cause analysis and identify failure patterns.",
+        "Architected a scalable data pipeline for EV fleet analytics, processing large-scale operational data to generate key insights on fleet utilization and driving and charging patterns, directly informing new product development."
+      ],
+      skills: ["Machine Learning", "LSTM", "Isolation Forests", "Autoencoders", "RAG", "Llama 2", "Data Pipelines"]
     },
-    // {
-    //   role: 'Subject Matter Expert',
-    //   companylogo: require('../assets/img/Chegg.png'),
-    //   date: 'May 2017 – May 2018',
-    // },
+    {
+      role: 'Research Intern (Statistical)',
+      company: 'Agency For Science Technology And Research (A*STAR)',
+      companylogo: require('../assets/img/astar.png'),
+      date: 'Nov 2023 - April 2024',
+      desc: [
+        "Developed an automated Python-based GUI application for ASE experiments on organic materials, streamlining experimental processes.",
+        "Integrated machine learning algorithms to analyze wavelength vs. intensity data at various laser power levels, identifying materials with optimal ASE properties.",
+        "Applied supervised and unsupervised learning techniques to predict ASE performance and uncover patterns in photoluminescent properties.",
+        "Automated data collection, preprocessing, and feature extraction, enhancing the reliability and efficiency of experimental data analysis."
+      ],
+      skills: ["Python", "GUI Development", "Machine Learning", "Data Analysis", "Feature Extraction"]
+    },
+    {
+      role: 'Summer Research Student',
+      company: 'Munich Center For Quantum Science and Technology (MCQST)',
+      companylogo: require('../assets/img/mcqst.png'),
+      date: 'July - Aug 2023',
+      desc: [
+        "Joined Christian Mendl's Quantum Computing Group at the Technical University of Munich.",
+        "Worked on research concerning Riemannian quantum circuit optimization for Hamiltonian simulation.",
+        "Employed Jax to significantly reduce computational load, resulting in a 9.3-fold increase in algorithm efficiency.",
+        "Applied advanced mathematical concepts such as gradient descent, automatic differentiation, Jacobian, and Hessian matrices to optimize quantum algorithms, enhancing their performance and accuracy."
+      ],
+      skills: ["Quantum Computing", "Jax", "Optimization", "Mathematics", "Python"]
+    },
+    {
+      role: 'Data Science Intern',
+      company: 'Algo Analytica',
+      companylogo: require('../assets/img/congress.png'),
+      date: 'April - July 2022',
+      desc: [
+        "Built an OCR pipeline to digitize electoral rolls in MongoDB with 98% accuracy, enabling scalable analysis.",
+        "Analyzed over 2M+ voter records from Uttarakhand and Rajasthan to identify key demographic trends (i.e age, gender and rich/poor).",
+        "Built a predictive model using Linear Regression to forecast voter turnout at the polling-booth level, using historical turnout and demographic data to provide granular insights for campaign strategy.",
+        "Led a team of 20+ members in designing and conducting large-scale surveys, analyzing the collected responses with advanced visualization techniques to derive actionable political insights."
+      ],
+      skills: ["OCR", "MongoDB", "Data Analysis", "Linear Regression", "Visualization"]
+    },
   ]
 }
 
